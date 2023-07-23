@@ -47,5 +47,16 @@ namespace WordLibTests
             Assert.True(result);
         }
 
+        [Theory]
+        [InlineData(6)]
+        [InlineData(14)]
+        [InlineData(24)]
+        [InlineData(26)]
+        public void IsNumberEven_ReturnsTrue_ForEvenNumbers(int number)
+        {
+            var result = WordLib.WordLib.IsNumberEven(number);
+            Assert.True(result);
+        }
+
     }
 }

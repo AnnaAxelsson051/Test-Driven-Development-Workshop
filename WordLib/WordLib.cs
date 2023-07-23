@@ -33,5 +33,10 @@
             return false;
         }
 
+        public static bool IsNumberEven(int number)
+        {
+            throw new NotImplementedException("This method is not yet implemented.");
+        }
+
     }
 }
