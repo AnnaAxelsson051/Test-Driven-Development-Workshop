@@ -4,7 +4,21 @@
     {
         public static bool IsWordPalindrome(string word)
         {
-            throw new NotImplementedException("This method is not yet implemented.");
+            word = word.ToLower();
+
+            int fromRight = word.Length - 1;
+            int fromLeft = 0;
+
+            while (fromLeft < fromRight)
+            {
+                if (word[fromLeft] != word[fromRight])
+                    return false;
+
+                fromLeft++;
+                fromRight--;
+            }
+
+            return true;
         }
 
 
