@@ -57,6 +57,5 @@ namespace WordLibTests
             var result = WordLib.WordLib.IsNumberEven(number);
             Assert.True(result);
         }
-
     }
 }
