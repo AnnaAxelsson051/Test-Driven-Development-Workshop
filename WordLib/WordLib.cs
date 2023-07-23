@@ -26,7 +26,11 @@
 
         public static bool IsWordAtleastTenCharacters(string word)
         {
-            throw new NotImplementedException("This method is not yet implemented.");
+            if (word.Length >= 10)
+            {
+                return true;
+            }
+            return false;
         }
 
     }
