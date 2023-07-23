@@ -4,6 +4,9 @@
     {
         public static bool IsWordPalindrome(string word)
         {
+            if (string.IsNullOrEmpty(word))
+                throw new ArgumentException("Please enter a word.");
+
             word = word.ToLower();
 
             int fromRight = word.Length - 1;
