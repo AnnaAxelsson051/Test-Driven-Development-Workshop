@@ -33,5 +33,12 @@ namespace WordLibTests
             Assert.True(result);
         }
 
+        [Fact]
+        public void IsWordPalindrome_EmptyString_ThrowsArgumentException()
+        {
+            Assert.Throws<ArgumentException>(
+                () => WordLib.WordLib.IsWordPalindrome(""));
+        }
+
     }
 }
