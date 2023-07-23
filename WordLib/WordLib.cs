@@ -24,6 +24,10 @@
             return true;
         }
 
+        public static bool IsWordAtleastTenCharacters(string word)
+        {
+            throw new NotImplementedException("This method is not yet implemented.");
+        }
 
     }
 }

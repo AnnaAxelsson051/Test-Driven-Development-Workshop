@@ -40,5 +40,12 @@ namespace WordLibTests
                 () => WordLib.WordLib.IsWordPalindrome(""));
         }
 
+        [Fact]
+        public void IsWordAtleastTenCharacters_test()
+        {
+            bool result = WordLib.WordLib.IsWordAtleastTenCharacters("Medborgarplatsen");
+            Assert.True(result);
+        }
+
     }
 }
