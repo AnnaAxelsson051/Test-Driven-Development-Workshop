@@ -19,5 +19,19 @@ namespace WordLibTests
             Assert.False(result);
         }
 
+        [Fact]
+        public void IsWordPalindrome_AllSameCharacters_ReturnsTrue()
+        {
+            var result = WordLib.WordLib.IsWordPalindrome("gggg");
+            Assert.True(result);
+        }
+
+        [Fact]
+        public void IsWordPalindrome_CaseInsensitive_ReturnsTrue()
+        {
+            var result = WordLib.WordLib.IsWordPalindrome("Tenet");
+            Assert.True(result);
+        }
+
     }
 }
