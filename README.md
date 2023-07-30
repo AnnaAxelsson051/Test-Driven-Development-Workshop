@@ -2,8 +2,7 @@
 
 ## Description
 
-Some basic tests for some simple methods as part of a workshop excersise.
-This application was developed using Test-Driven Development (TDD) principles. Automated unit tests were implemented using xUnit testing framework to ensure code reliability and maintainability.
+Some basic tests for some simple methods as part of a workshop excersise. The application was developed using Test-Driven Development (TDD) principles. Automated unit tests were implemented using xUnit testing framework to ensure code reliability and maintainability.
 
 ---
 
