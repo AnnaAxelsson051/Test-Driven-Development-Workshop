@@ -2,11 +2,12 @@
 
 ## Description
 
-Some basic tests for some simple methods as part of a workshop excersise for the .NET Fullstack Developer education. The goal was to use TDD and write tests using the xUnit framework.
+Some basic tests for some simple methods as part of a workshop excersise.
+This application was developed using Test-Driven Development (TDD) principles. Automated unit tests were implemented using xUnit testing framework to ensure code reliability and maintainability.
 
 ---
 
-## Technologies used:
+## Technologies used
 
 - .NET
 - C#
